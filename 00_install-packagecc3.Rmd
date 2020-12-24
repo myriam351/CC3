@@ -7,10 +7,15 @@ output:
 ---
 # INSTALLATION DES "PACKAGE" POUR L'ANALYSE DES DONNÉES
 
-# Installation Dada2
-```{r}
-library(ggplot2)
+# Installation Sudo
+```{bash}
+sudo apt-get update -y 
+sudo apt-get install -y libbz2-dev
+sudo apt-get install -y liblzma-dev
+sudo apt-get install -y libglpk-dev
+sudo apt-get install -y libxtst6
 ```
+
 
 ```{r}
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -23,15 +28,10 @@ BiocManager::install("dada2", version = "3.11")
 ```{r}
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-
 BiocManager::install("phyloseq")
 ```
 
-# Installation Sudo
-```{bash}
-sudo apt-get update -y 
-sudo apt-get install -y libglpk-dev
-```
+
 
 # Installation gridExtra
 ```{r}
