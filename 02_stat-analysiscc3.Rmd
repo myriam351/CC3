@@ -17,7 +17,7 @@ library(dada2)
 
 
 ```{r}
-path <- "~/CC2/donnees" # CHANGE ME to the directory containing the fastq files after unzipping.
+path <- "~/CC3/donnees" # CHANGE ME to the directory containing the fastq files after unzipping.
 list.files(path)
 ```
 ### Commentaire : Retraçage du fichier de données. Les fichiers ont été mis dans le dossier données. Ensuite,on a mis ces derniers dans l'objet "path".
