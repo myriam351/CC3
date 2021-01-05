@@ -109,6 +109,9 @@ dadaFs <- dada(filtFs, err=errF, multithread=TRUE)
 ### Commentaire : Visualisation des taux d’erreurs pour les Forward.
 
 
+Cette fonction permet d’appliquer le modèle que Dada2 à créée pour tous les read forward du jeu de données, on aura donc plus besoin de faire d’OTU.
+
+
 
 ```{r}
 dadaRs <- dada(filtRs, err=errR, multithread=TRUE)
