@@ -84,5 +84,5 @@ errR <- learnErrors(filtRs, multithread=TRUE)
 ```
 ### Commentaire : Ici on apprend via la fonction learnErrors() les taux d’erreurs à partir des amorces filtrées. Ces taux d'erreurs vont permettrent de créer des modèles d'erreurs, pour pouvoir corriger nos read. On a mis ces modèles d'erreurs dans des objets, tels que errF (pour les Foward) et errR (pour les Reverse). Pour les amorces Foward on a utilisé ****** échantillons et pour les Reverse on a utilisé ********  échantillons.
 
-### Commentaire : À partir d'ici il y a un problème. Nous n'avons pas pu aller plus loin. 
+### Commentaire : À partir d'ici il y a un problème. Nous n'avons pas pu aller plus loin. Vous trouverez l'explication dans un fichier pdf dans mon fichier CC3 dans gitHub ou sur slack.
 
